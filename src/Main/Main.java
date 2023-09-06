@@ -8,5 +8,9 @@ public class Main {
 //        do Java (Main.Main) lendo a entrada como argumento, instanciando a classe da
 //        CaixaDoAtacado, registrando essa compra e por final exibindo no console o
 //        valor total.
+
+        Pedido pedido = new Pedido();
+        pedido.realizarPedido();
+        pedido.mostrarPedido();
     }
 }
